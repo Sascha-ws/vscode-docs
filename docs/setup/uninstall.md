@@ -1,4 +1,4 @@
----
+﻿---
 Order: 9
 Area: setup
 TOCTitle: Uninstall

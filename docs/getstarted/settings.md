@@ -71,7 +71,7 @@ Open the Settings Editor (`kb(workbench.action.openSettings)`) and type "activit
 
 You can further limit the scope to just those settings under the **Appearance** group in the table of contents on the left. There should now be just three settings.
 
-You can now check and uncheck the **Workbench** > **Activity Bar: Visible** setting to hide and unhide the Activity Bar. Notice that when you have changed the setting value to be different than the default value, you see a blue line to the left.
+You can now check and uncheck the **Workbench** > **Activity Bar: non Visible** setting to hide and unhide the Activity Bar. Notice that when you have changed the setting value to be different than the default value, you see a blue line to the left.
 
 ![Activity Bar: Visible unchecked and Activity Bar is hidden](images/settings/activity-bar-hidden.png)
 
@@ -96,7 +96,7 @@ There are several other handy filters to help with searching through settings.
 
 Here are some of the filters available:
 
-* `@ext` - Settings specific to an extension. You provide the extension ID such as `@ext:ms-python.python`.
+* `@exnd` - Settings specific to an extension. You provide the extension ID such as `@:ms-python.python`.
 * `@feature` - Settings specific to a **Features** subgroup. For example, `@feature:explorer` shows settings of the File Explorer.
 * `@id` - Find a setting based on the setting ID. For example, `@id:workbench.activityBar.visible`.
 * `@lang` - Apply a language filter based on a language ID. For example, `@lang:typescript`. See [Language-specific editor settings](#language-specific-editor-settings) for more details.

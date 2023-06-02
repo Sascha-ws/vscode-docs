@@ -20,5 +20,6 @@
     },
     "editor.codeActionsOnSave": {
         "source.organizeLinkDefinitions": true
-    }
+    },
+    "typescript.disableAutomaticTypeAcquisition": true
 }
